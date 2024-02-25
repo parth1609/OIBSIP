@@ -41,3 +41,29 @@ Utilizes an object-oriented class structure for organized code, encapsulating BM
 6. Readable Output:
 Presents clear and readable output messages, conveying calculated BMI and weight status information for user comprehension.
 
+Task - 3 (Random Password Generator)
+
+Create a command-line password generator in Python that generates random
+passwords based on user-defined criteria, such as length and character types (letters, numbers,
+symbols). Allow users to specify password length and character set preferences.
+
+1. User Input and Validation:
+The program prompts the user to input the desired length of the password, ensuring it is at least 12 characters.
+It also asks the user whether to include letters, numbers, and symbols in the password.
+
+2. Modular Function:
+The generate_password function is responsible for creating a random password based on user preferences.
+It uses the secrets module for secure random number generation.
+The function validates user input, such as ensuring a positive password length and at least one character type selected.
+
+3. Character Set Generation:
+The program dynamically generates a character set based on the user's preference for including letters, numbers, and symbols.
+It uses the string module to access predefined sets of ASCII characters (letters, digits, punctuation).
+
+4. Error Handling:
+The program provides error messages if there are issues with user input, such as a password length less than 12 or no character types selected.
+Errors are handled in the generate_password function and displayed to the user in the main function.
+
+5. Random Password Generation:
+The program generates a random password by iteratively selecting characters from the generated character set using the secrets.choice function.
+The resulting password is displayed to the user if it meets the specified criteria; otherwise, an error message is shown.
