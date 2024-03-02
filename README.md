@@ -2,7 +2,8 @@
 
 OIBSIP - OASIS Infobyte Internship
 
-Task - 1 (Voice Assistant)
+<h3> Task - 1 </h3> 
+<h1>Voice Assistant</h1> 
 
 Create a basic voice assistant that can perform simple tasks based on voice
 commands. Implement features like responding to "Hello" and providing predefined responses,
@@ -11,7 +12,8 @@ telling the time or date, and searching the web for information based on user qu
 
 
 Features:
-1. Speech Recognition:
+
+1.  Speech Recognition:
 Utilizing the SpeechRecognition library, the AI Assistant now listens to audio input from a microphone and recognizes speech using Google's speech recognition API.
 2. Text-to-Speech:
 The pyttsx3 library has been integrated to convert text into speech, providing a seamless interaction with the assistant.
@@ -23,8 +25,8 @@ The AI Assistant employs a Support Vector Classifier (SVC) with a linear kernel 
 The assistant can engage in various conversations, including greetings, farewells, weather inquiries, jokes, compliments, riddles, movie and music recommendations, game suggestions, and inspirational quotes.
 
 
-Task - 2 (BMI Calculator)
-
+<h3> Task - 2 </h3> 
+<h1>BMI Calculatort</h1> 
 Create a command-line BMI calculator in Python. Prompt users for their
 weight (in kilograms) and height (in meters). Calculate the BMI and classify it into categories
 (e.g., underweight, normal, overweight) based on predefined ranges. Display the BMI result and
@@ -41,8 +43,9 @@ Utilizes an object-oriented class structure for organized code, encapsulating BM
 6. Readable Output:
 Presents clear and readable output messages, conveying calculated BMI and weight status information for user comprehension.
 
-Task - 3 (Random Password Generator)
 
+<h3> Task - 3 </h3> 
+<h1>Random Password Generator</h1> 
 Create a command-line password generator in Python that generates random
 passwords based on user-defined criteria, such as length and character types (letters, numbers,
 symbols). Allow users to specify password length and character set preferences.
